@@ -45,6 +45,7 @@ input[type=number] {
     border-radius: 1rem;
     box-shadow: rgba(149, 157, 165, 0.35) 0px 8px 24px;
     margin-bottom: 2rem;
+    max-width: 815px;
 }
 
 
@@ -222,6 +223,7 @@ input[type=number] {
 .container .result .res .amount h1, #amount {
     color: hsl(172, 67%, 45%);
     font-size: 1.6em;
+    max-width: 125px;
 }
 
 .container .result .res .total {
@@ -246,6 +248,7 @@ input[type=number] {
 .container .result .res .total h1, #total {
     color: hsl(172, 67%, 45%);
     font-size: 1.6em;
+    max-width: 125px;
 }
 
 .container .result button {
