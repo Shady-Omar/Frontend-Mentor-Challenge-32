@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="main.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+  <!-- ************ -->
+  <title>Frontend Mentor | Tip calculator app</title>
+</head>
+<body>
+  <main>
+    <h1 id="bg">SPLI <br> TTER</h1>
+    <div class="container">
+      <div class="calc">
+        <div class="bill">
+          <label for="bill">Bill</label>
+          <input type="number" name="bill" id="bill" placeholder="0" dir="rtl" min="0">
+        </div>
+        <div class="tip">
+          <p>Select Tip %</p>
+          <div id="tips">
+            <span class="per">5%</span>
+            <span class="per">10%</span>
+            <span class="per">15%</span>
+            <span class="per">25%</span>
+            <span class="per">50%</span>
+            <input class="per" id="custom" type="number" placeholder="Custom" min="1">
+          </div>
+        </div>
+        <div class="people">
+          <label for="people">Number of People</label>
+          <input type="number" name="people" id="people" dir="rtl" min="1">
+        </div>
+      </div>
+      <div class="result">
+        <div class="res">
+          <div class="amount">
+            <div class="text">
+              <span>Tip Amount</span>
+              <p>/ person</p>
+            </div>
+            <h1><span id="amount"></span></h1>
+          </div>
+          <div class="total">
+            <div class="text">
+              <span>Total</span>
+              <p>/ person</p>
+            </div>
+            <h1><span id="total"></span></h1>
+          </div>
+        </div>
+        <button id="reset">RESET</button>
+      </div>
+    </div>
+  </main>
+  <script src="main.js"></script>
+</body>
+</html>
